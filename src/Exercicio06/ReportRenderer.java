@@ -1,6 +1,6 @@
 package Exercicio06;
 
-public interface ReportRenders {
+public interface ReportRenderer {
 
     byte[] render(ReportData data);
     String getFormat();

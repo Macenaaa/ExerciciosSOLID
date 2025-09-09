@@ -1,7 +1,9 @@
 package Exercicio04;
 
 public class Main {
+
     public static void main(String[] args) {
+        
         EmailSender emailSender = new SmtpEmailSender();
         SmsSender smsSender = new SmsSende();
         PushSender pushSender = new FirebasePushSender();
